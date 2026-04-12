@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>dwight</title>
+    <link rel="icon" type="image/x-icon" href="favico.png">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian&family=Protest+Strike&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1>dwight</h1>
+    <div class="bars">
+      <ul class="nav-bar">
+        <li style="margin-left:-4vh;float:left;"><a href="index.html">home</a></li>
+        <li><a class="active" href="skills.html">skills</a>
+            <ul class="expanded-navbar">
+                <li><a href="mindful.html">mindfulness</a></li>
+                <li><a class="active" href="er.html">emotion reg</a></li>
+                <li><a href="ie.html">interpersonal</a></li>
+                <li><a href="dt.html">distress tolerance</a></li>
+                <li><a href="nd.html">neurodiversity</a></li>
+    
+            </ul>
+        </li>
+        <li><a href="practice.html">practice</a>
+            <ul class="expanded-navbar">
+                <li><a href="thoughts.html">thoughts</a></li>
+                <li><a href="surf.html">urge surf</a></li>
+                <li><a href="monster.html">monster</a></li>
+    
+            </ul>
+        </li>
+        <li><a href="community.html">community</a>
+            <ul class="expanded-navbar">
+                <li><a href="community.html">gallery</a></li>
+                <li><a href="contribute-form.html">contribute</a></li>
+            </ul>
+        </li>
+        <li class="nav-btn"><button class="innernb">&#8659;</button></li>
+        <li style="float:right; margin-right:1vh;"><a href="crisis.html">CRISIS</a>
+            <ul class="expanded-navbar">
+                <li class="expanded-dif"><a href="surf.html">urge surf</a></li>
+              <li class="expanded-dif"><a href="distraction-ideas.html">distraction</a></li>
+              <li class="expanded-dif"><a href="thoughts.html">thoughts</a></li>
+            </ul>
+        </li>
+    </ul>
+    </div>
+
+    <ul class="nav-bar" id="two">
+        <li style="margin-left:-4vh;float:left;"><a href="#section1">check the facts</a></li>
+        <li><a href="#section2">thought defusion</a></li>
+        <li><a href="#section3">cope ahead</a></li>
+    </ul>
+
+    <a href="skills.html"><img class="skimg" src="skills.png" alt="Skills page title"></a>
+    <h1 class="sktitle">Emotion Regulation Skills</h1>
+
+    <div id="section1" class="skill-section">
+      <h3 style="font-family: Urbanist;">Check the Facts</h3>
+      <h4>Check the Facts is a DBT skill that allows you to analyze if your emotional intensity and action urges fit the facts of a given situation.</h4>
+      <p>Marsha Linehan, founder of DBT, has a great resource for utilizing Check the Facts in her DBT manual. Check it out <a href="https://in.nau.edu/wp-content/uploads/sites/202/Check-the-Facts.pdf">here</a>!</p>
+      <h3 style="font-family: Urbanist;">Check the Facts (*my way*)</h3>
+      <h4>If you, like myself, have a difficult time using this skill the traditional way, see below for my modifications.</h4>
+      <form><ol class="ctf">
+        <li>Check in with yourself:<ul>
+            <li>Are you experiencing strong emotions
+                <input id="txts" class="factsCA" type="checkbox">
+            </li>
+            <li>Can you identify what they are?
+                <input id="txts" class="factsCA" type="checkbox">
+            </li>
+        </ul><input id="txts" class="factsA" type="text" placeholder="Use this space to reflect on your emotions...">
+        </li><br>
+        <li>Reflect on the facts of the situation by...
+            <ul>
+                <li>Think back to the situation that prompted your strong emotions
+                    <input id="txts" class="factsCA" type="checkbox">
+                </li>
+                <li>Pretend you are an external observer narrating the prompting event.<ul>
+                    <li>It can help to pretend you are an author telling the story of the prompting event using a third-party perspective (stories told in the third-person have no access to the internal thoughts and feelings of the characters, they are based on external observations alone)</li>
+                </ul>
+                    <input id="txts" type="text" class="factsB" placeholder="Write about the event as a third-party narrator here...">
+                </li>
+                <li>Review your external observations of the prompting event. Is it entirely based on external facts? If not, revise it.
+                    <input id="txts" class="factsC" type="checkbox">
+                </li>
+                <li>Return to your first-party perspective of the prompting event. List the facts of your emotional experience. What are/were you feeling? Stick to your emotional experience only, not the behaviors/action urges.
+                    <input id="txts" class="factsD" type="text" placeholder="Write about the event as you experienced it here...">
+
+                </li>
+                <li>Were there any vulnerability factors that may have impacted how you are/were feeling? For example, were you hungry, did you have a difficult day, etc. The EMOTIONAL CHECK IN skill can help with identifying this.
+                    <input id="txts" type="text" class="factsE" placeholder="Write about your vulnerability factors here...">
+
+                </li>
+            </ul>
+        </li><br>
+        <li>Complete another self check-in. Identify what you are feeling and how strong the intensity of the emotion is (see mindfulness skills to practice rating the intensity of your emotions with SUD scores). In this step, it is important to recognize that your emotions are valid! It is okay to feel what you are feeling, regardless of what it is. Try and observe your emotions without judgement.
+            <input id="txts" type="text" class="factsF" placeholder="Write about how you feel right now here...">
+        </li><br>
+        <li>Identify what action urges you are experiencing. Again, try and avoid self-judgement.
+            <input id="txts" type="text" class="factsG" placeholder="Write any action urges here...">
+        </li><br>
+        <li>Now for the most important step: does your emotional intensity and/or your action urges fit the facts?
+            <ul>
+                <li>Are there vulnerability factors impacting your emotional intensity that are external to the prompting event? How can you manage these factors to bring down your emotional intensity?
+                    <input id="txts" class="factsH" type="text" placeholder="Brainstorm ways to combat vulnerability factors here...">
+                </li>
+                <li>Are your action urges productive in improving the situation (in other words, do they fit the facts)? Action urges that involve harming yourself or others <bold>NEVER</bold> fit the facts. If your action urges do not fit the facts, brainstorm other responses that better fit the situation
+                    <input id="txts" type="text" class="factsI" placeholder="Reflect on the productivity of your action urges here...">
+                </li>
+                <li>If your emotional intensity AND action urges fit the facts, move into problem solving mode. This may involve approaching the situation itself or managing the emotions you feel about the situation. Check out distress tolerance skills for managing intense emotions.
+                    <input id="txts" class="factsCB" type="checkbox">
+                </li>
+            </ul>
+        </li>
+        <input class="clr-ctf" type="reset" value="Click Here To Reset" /><br>
+        <!-- <input class="clr-ctf" type="reset" value="Click Here To Save" /> -->
+      </ol></form>
+  </div>
+
+  <div id="section2" class="skill-section">
+      <h3 style="font-family: Urbanist;">Thought Defusion</h3>
+      <h4>Thought defusion is a skill that helps you manage intrusive thoughts without letting them take over</h4>
+      <br>
+      <a class="com-btn2" href="thoughts.html" style="background-color:var(--purple);">click to begin defusing your thoughts</a><br><br><br><br><br><br>
+      
+  </div>
+  
+  <div id="section3" class="skill-section">
+      <h3 style="font-family: Urbanist;">Cope Ahead</h3>
+      <h4>Use cope ahead to prepare for potentially difficult situations. The Cope Ahead skill helps you identify skills and tools you may need in the future, so you do not need to brainstorm skills when in moments of high distress</h4>
+      <p>Check out <a href="https://eymtherapy.com/wp-content/uploads/2018/04/cope-ahead.pdf">this resource</a> to learn about the Cope Ahead Skill</p>
+      <img class="skrk" src="skillrecap.png" alt="overview of dwight skills" style="width:120vh;border:2px solid var(--purple);">
+      <p>^You can use this resource to create your cope ahead plan. Feel free to print it out to highlight the skills that might be helpful and write in your own skills on the back. Use this <a href="skillrecap.pdf">printable PDF version</a> to download.</p>
+
+  </div>
+
+    
+    <footer>
+        <h1>Thanks for visiting</h1>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

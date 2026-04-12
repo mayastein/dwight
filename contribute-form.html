@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>dwight</title>
+    <link rel="icon" type="image/x-icon" href="favico.png">
+
+    <link href="styleForm.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1>dwight</h1>
+    <ul class="nav-bar">
+      <li style="margin-left:-4vh;float:left;"><a href="index.html">home</a></li>
+      <li><a href="skills.html">skills</a>
+          <ul class="expanded-navbar">
+              <li><a href="mindful.html">mindfulness</a></li>
+              <li><a href="er.html">emotion reg</a></li>
+              <li><a href="ie.html">interpersonal</a></li>
+              <li><a href="dt.html">distress tolerance</a></li>
+              <li><a href="nd.html">neurodiversity</a></li>
+  
+          </ul>
+      </li>
+      <li><a href="practice.html">practice</a>
+          <ul class="expanded-navbar">
+              <li><a href="thoughts.html">thoughts</a></li>
+              <li><a href="surf.html">urge surf</a></li>
+              <li><a href="monster.html">monster</a></li>
+  
+          </ul>
+      </li>
+      <li><a class="active" href="community.html">community</a>
+          <ul class="expanded-navbar">
+              <li><a href="community.html">gallery</a></li>
+              <li><a class="active" href="contribute-form.html">contribute</a></li>
+          </ul>
+      </li>
+      <li class="nav-btn"><button class="innernb">&#8659;</button></li>
+      <li style="float:right; margin-right:1vh;"><a href="crisis.html">CRISIS</a>
+          <ul class="expanded-navbar">
+            <li class="expanded-dif"><a href="surf.html">urge surf</a></li>
+            <li class="expanded-dif"><a href="distraction-ideas.html">distraction</a></li>
+            <li class="expanded-dif"><a href="thoughts.html">thoughts</a></li>
+          </ul>
+      </li>
+  </ul>
+    <h1 class="titletxt">Use this form to share your contribution<br>with a dwight team member for review!</h1>
+    <form class="form" method="POST" action="sendmail.php">
+        <h5 class="form-title">Community Submission</h5>
+          <label for="name">Please enter your name:</label>
+          <input type="text" id="name" name="user_name" required />
+          <div class="check">
+            <input type="checkbox" id="anonymous" name="anonymous" value="anonymous" checked>
+            <label for="anonymous"> If my submission is posted, please exclude my name (submission will be posted as anonymous)</label>
+          </div>
+          <label for="mail">Please enter your email:</label>
+          <input type="email" id="mail" name="user_email" required />
+
+          <label for="phone">Please enter your phone number (optional):</label>
+          <input type="tel" id="phone" name="user_phone" 
+          placeholder="123-456-7890" pattern="[0-9]{3} [0-9]{3} 0-9]{4}" >
+
+          <div class="check">
+            <input type="checkbox" id="email-okay" name="emails" value="email" checked>
+            <label for="emails"> I prefer to be contacted by email</label>
+          </div>
+          
+          <div class="check">
+            <input type="checkbox" id="text-okay" name="texts" value="text">
+            <label for="texts"> I prefer to be contacted by phone (text message)</label>
+          </div>
+          
+          <label for="filename">Attach your submission here!<br><i>Note: if your submission is a link, please paste it onto a document and upload the doc.</i></label>
+          <input type="file" id="myFile" name="filename">
+
+          <label for="msg">Description of your submission:</label>
+          <textarea id="msg" name="user_message" rows="8" placeholder="please type some information here..." required></textarea>
+
+          <button class="submit" type="submit">submit your contribution!</button>
+
+      </form>
+
+    
+
+    <footer>
+        <h1>Thanks for visiting</h1>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

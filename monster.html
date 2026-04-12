@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>dwight</title>
+    <link rel="icon" type="image/x-icon" href="favico.png">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miltonian&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nosifer&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <h1>dwight</h1>
+    <ul class="nav-bar">
+        <li style="margin-left:-4vh;float:left;"><a href="index.html">home</a></li>
+        <li><a href="skills.html">skills</a>
+            <ul class="expanded-navbar">
+                <li><a href="mindful.html">mindfulness</a></li>
+                <li><a href="er.html">emotion reg</a></li>
+                <li><a href="ie.html">interpersonal</a></li>
+                <li><a href="dt.html">distress tolerance</a></li>
+                <li><a href="nd.html">neurodiversity</a></li>
+    
+            </ul>
+        </li>
+        <li><a class="active" href="practice.html">practice</a>
+            <ul class="expanded-navbar">
+                <li><a href="thoughts.html">thoughts</a></li>
+                <li><a href="surf.html">urge surf</a></li>
+                <li><a class="active" href="monster.html">monster</a></li>
+    
+            </ul>
+        </li>
+        <li><a href="community.html">community</a>
+            <ul class="expanded-navbar">
+                <li><a href="community.html">gallery</a></li>
+                <li><a href="contribute-form.html">contribute</a></li>
+            </ul>
+        </li>
+        <li class="nav-btn"><button class="innernb">&#8659;</button></li>
+        <li style="float:right; margin-right:1vh;"><a href="crisis.html">CRISIS</a>
+            <ul class="expanded-navbar">
+                <li class="expanded-dif"><a href="surf.html">urge surf</a></li>
+              <li class="expanded-dif"><a href="distraction-ideas.html">distraction</a></li>
+              <li class="expanded-dif"><a href="thoughts.html">thoughts</a></li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="monster-content">
+        <div class="left">
+            <img src="mon.png" alt="demo" class="mon">
+        </div>
+
+        <div class="right">
+            <h1 class="monster-dir-title">Shut up, Dwight!</h1>
+            <h2 class="monster-dir">This monster generating/fighting feature is a silly way to take power away from negative self-talk and related thoughts that feel intrusive and harmful. This is based on the tool of "talking back" to OCD by giving it a name (like dwight) and telling it to "shut up".</h2>
+
+            <button class="start">Click To Begin!</button>
+        </div>
+    </div>
+
+    <div class="monster-content2">
+        <div class="left">
+            <img src="mon.png" alt="demo" class="mon">
+        </div>
+        <div class="right">
+            <label for="colors" class="mon-txt">Please select a color ⤵️</label><br><br>
+            <input type="color" id="colors" name="colors" value="#ceb8ff"><br><br>
+            <br>
+            <button class="next">Click To Continue!</button>
+        </div>
+    </div>
+
+    <div class="monster-content3">
+        
+        <div class="left">
+            <div class="the-monster" draggable="true">
+                <div class="eyes">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                </div>
+                <div class="mouth"></div>
+            </div>
+            <img src="mon.png" alt="demo" class="mon2">
+        </div>
+        <div class="monster-content3-btns right">
+            <br><br>
+            <div>
+                <button class="face-btn eyebtn">Generate a new set of eyes!</button>
+                <button class="face-btn mouthbtn">Generate a new mouth!</button>
+            </div>
+            <br>
+            <div>
+                <button class="face-btn acebtn">Accessorize!</button>
+                <button class="face-btn sizebtn">Resize!</button>
+            </div>
+            <br><br>
+            <button class="next2">Click To Continue!</button><br>
+        </div>
+
+        <div class="monster-content4 right">
+            <h4 style="font-size: 25px;">Your Monster Has Been Created!</h4>
+            <form class="mon-form">
+                <label for="mname" class="mon-form-txt">Name of monster:</label>
+                <input type="text" id="mname" name="mname" class="styled-input"><br>
+
+                <p class="mon-form-txt">How would you like to defeat your monster?</p>
+                <div class="mon-opts">
+                    <div>
+                        <input type="radio" id="throw" name="defeat" value="throw">
+                        <label class="mon-form-txt" for="throw">Throw them away 🚮</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="punch" name="defeat" value="punch">
+                        <label class="mon-form-txt" for="punch">Punch them till they explode 🤯</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="space" name="defeat" value="space">
+                        <label class="mon-form-txt" for="space">Send them off to space ☄️</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="surprise" name="defeat" value="surprise">
+                        <label class="mon-form-txt" for="surprise">Surprise me 😈</label>
+                    </div>
+                    
+                </div>
+                <br><br>
+                <button class="monster-be-gone skill-btn">DEFEAT THE MONSTER 🤺</button>
+
+
+            </form>
+        </div>
+
+        <div class="monster-content-trash left">
+            
+            <h2 class="directionsTxt-trash">Drag your monster into the trash &#128073;</h2>
+            <h3 class="mon-trash-txt">Eat trash</h3>
+            
+        </div>
+
+        <div class="monster-content-trash right">
+            <button class="reset1">Reset</button>
+            <img src="trashmonkey.png" alt="trash can filled with garbage and a bonkey eating a banana">
+        </div>
+
+        <div class="monster-content-punch left">
+            
+            <h3 class="mon-punch-txt">Explosion</h3>
+            
+        </div>
+
+        <div class="monster-content-punch right">
+            <button class="reset1">Reset</button>
+            <h2 class="directionsTxt-punch">Click the monster until it explodes!</h2><br><br><br><br><br><br><br><br>
+        </div>
+
+        <div class="monster-content-space left">
+            <h3 class="mon-punch-txt">Another universe's problem now</h3>
+            
+        </div>
+
+        <div class="monster-content-space right">
+            <button class="reset1">Reset</button>
+            <h2 class="directionsTxt-punch">Hit the button below to launch the monster far away into space </h2>
+            <button class="blast">Blast Off</button>
+        </div>
+       
+        
+    </div>
+    <!-- <div class="fillspace"></div> -->
+    <footer>
+        <h1>Thanks for visiting</h1>
+    </footer>
+
+    <script src="monsterscript.js"></script>
+  </body>
+</html>

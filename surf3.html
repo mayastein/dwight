@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dwight</title>
+    <link rel="icon" type="image/x-icon" href="favico.png">
+
+    <link href="surfstyle.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    
+    <h1>dwight</h1>
+    <ul class="nav-bar">
+      <li style="margin-left:-4vh;float:left;"><a href="index.html">home</a></li>
+      <li><a href="skills.html">skills</a>
+          <ul class="expanded-navbar">
+              <li><a href="mindful.html">mindfulness</a></li>
+              <li><a href="er.html">emotion reg</a></li>
+              <li><a href="ie.html">interpersonal</a></li>
+              <li><a href="dt.html">distress tolerance</a></li>
+              <li><a href="nd.html">neurodiversity</a></li>
+  
+          </ul>
+      </li>
+      <li><a class="active" href="practice.html">practice</a>
+          <ul class="expanded-navbar">
+              <li><a href="thoughts.html">thoughts</a></li>
+              <li><a class="active" href="surf.html">urge surf</a></li>
+              <li><a href="monster.html">monster</a></li>
+  
+          </ul>
+      </li>
+      <li><a href="community.html">community</a>
+          <ul class="expanded-navbar">
+              <li><a href="community.html">gallery</a></li>
+              <li><a href="contribute-form.html">contribute</a></li>
+          </ul>
+      </li>
+      <li class="nav-btn"><button class="innernb">&#8659;</button></li>
+      <li style="float:right; margin-right:1vh;"><a href="crisis.html">CRISIS</a>
+          <ul class="expanded-navbar">
+            <li class="expanded-dif"><a href="surf.html">urge surf</a></li>
+            <li class="expanded-dif"><a href="distraction-ideas.html">distraction</a></li>
+            <li class="expanded-dif"><a href="thoughts.html">thoughts</a></li>
+          </ul>
+      </li>
+  </ul>
+
+    <ul class="nav-bar" id="two">
+      <li><a href="surf.html">⏪BACK</a></li>
+        <li><a href="dt.html">distress tolerance</a></li>
+        <li><a href="crisis.html">crisis support</a></li>
+    </ul>
+
+    <h1 class="sktitle">Urge Surfing</h1>
+    <h4 class="desc">Thoughts, emotions, and urges are TEMPORARY. Sometimes the best thing to do is press pause and wait for them to pass. Wait just five minutes. Then reset the page and do it again.</h4>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-center">
+              <div class="otp-countdown"  id="timer-countdown">05:00</div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <p class="btn-atn"><em>*CLICK ABOVE TO RESET THE TIMER*</em></p>
+      
+      <canvas id="canvas"></canvas>
+      <!--https://www.youtube.com/watch?app=desktop&v=mRDo-QXVUv8-->
+
+    <script src="scriptsurf.js"></script>
+  </body>
+</html>
