@@ -51,36 +51,36 @@
       </li>
   </ul>
     <h1 class="titletxt">Use this form to share your contribution<br>with a dwight team member for review!</h1>
-    <form class="form" method="POST" action="https://formspree.io/f/mykogpol">
+    <form class="form" method="POST" action="https://formspree.io/f/mykogpol" enctype="multipart/form-data">
         <h5 class="form-title">Community Submission</h5>
           <label for="name">Please enter your name:</label>
-          <input type="text" id="name" name="user_name" required />
+          <input type="text" id="name" name="name" required />
           <div class="check">
-            <input type="checkbox" id="anonymous" name="anonymous" value="anonymous" checked>
+            <input type="checkbox" id="anonymous" name="publish_annonymously" value="yes" checked>
             <label for="anonymous"> If my submission is posted, please exclude my name (submission will be posted as anonymous)</label>
           </div>
           <label for="mail">Please enter your email:</label>
-          <input type="email" id="mail" name="user_email" required />
+          <input type="email" id="mail" name="email" required />
 
           <label for="phone">Please enter your phone number (optional):</label>
-          <input type="tel" id="phone" name="user_phone" 
-          placeholder="123-456-7890" pattern="[0-9]{3} [0-9]{3} 0-9]{4}" >
+          <input type="tel" id="phone" name="phone" 
+          placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
 
           <div class="check">
-            <input type="checkbox" id="email-okay" name="emails" value="email" checked>
+            <input type="checkbox" id="email-okay" name="contact_email" value="yes" checked>
             <label for="emails"> I prefer to be contacted by email</label>
           </div>
           
           <div class="check">
-            <input type="checkbox" id="text-okay" name="texts" value="text">
+            <input type="checkbox" id="text-okay" name="contact_text" value="yes">
             <label for="texts"> I prefer to be contacted by phone (text message)</label>
           </div>
           
           <label for="filename">Attach your submission here!<br><i>Note: if your submission is a link, please paste it onto a document and upload the doc.</i></label>
-          <input type="file" id="myFile" name="filename">
+          <input type="file" id="myFile" name="attachment">
 
           <label for="msg">Description of your submission:</label>
-          <textarea id="msg" name="user_message" rows="8" placeholder="please type some information here..." required></textarea>
+          <textarea id="msg" name="message" rows="8" placeholder="please type some information here..." required></textarea>
 
           <button class="submit" type="submit">submit your contribution!</button>
 
