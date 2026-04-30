@@ -1,0 +1,69 @@
+Status Check - 4/30/26
+
+ home (index.html): 
+    (X) Content
+    (X) Resizing based on screen size
+
+skills landing (skills.html)
+    ( ) Content (review)
+    ( ) Resizing based on screen size
+
+skills mindfulness
+    ( ) Content (review)
+    ( ) Resizing based on screen size
+
+skills emotion reg
+    ( ) Content
+        ( ) Missing image
+        ( ) Review
+    ( ) Resizing based on screen size
+
+skills interpersonal effectiveness
+    ( ) Content (review)
+    (X) Resizing based on screen size
+
+skills dt
+    ( ) Content (review)
+    ( ) Resizing based on screen size
+
+skills nd
+    ( ) Content
+    ( ) Resizing based on screen size
+
+practice landing
+    ( ) Content (review)
+    ( ) Resizing based on screen size
+
+thought defusion
+    ( ) Content (review)
+    ( ) Voice feature
+    (X) Resizing based on screen size
+
+urge surfing (landing)
+    (X) Content
+    ( ) Resizing based on screen size
+
+urge surf subpages
+    ( ) resizing for subpage 2
+    ( ) resizing for subpage 3
+
+monster (landing/sub)
+    ( ) content - needs lots of work
+    ( ) Resizing based on screen size
+
+
+community (landing)
+    (X) Content
+    ( ) Resizing based on screen size
+
+community (form)
+    (X) Content
+    (X) Resizing based on screen size
+
+crisis (landing)
+    (X) Content
+    ( ) Resizing based on screen size
+
+Distraction
+    ( ) Content (review)
+    (X) Resizing based on screen size
