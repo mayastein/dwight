@@ -56,13 +56,13 @@
           <label for="name">Please enter your name:</label>
           <input type="text" id="name" name="name" required />
           <div class="check">
-            <input type="checkbox" id="anonymous" name="publish_annonymously" value="yes" checked>
+            <input type="checkbox" id="anonymous" name="publish_annonymously" value="yes">
             <label for="anonymous"> If my submission is posted, please exclude my name (submission will be posted as anonymous)</label>
           </div>
           <label for="mail">Please enter your email:</label>
           <input type="email" id="mail" name="email" required />
 
-          <label for="phone">Please enter your phone number (optional):</label>
+          <label for="phone">Please enter your phone number (optional) using this format ###-###-####:</label>
           <input type="tel" id="phone" name="phone" 
           placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" >
 
@@ -73,7 +73,7 @@
           
           <div class="check">
             <input type="checkbox" id="text-okay" name="contact_text" value="yes">
-            <label for="texts"> I prefer to be contacted by phone (text message)</label>
+            <label for="texts"> I prefer to be contacted by phone (text)</label>
           </div>
 
           <!-- 
@@ -87,7 +87,7 @@
           -->
 
           <label for="msg">Please include a description of your requested submission (ex: I would like to submit an image I painted of a garden"). If applicable, you can include a link to your submission. If submitting a file upload, simply explain the file and we will contact you to share the file if your submission is accepted. Thank you :)</label>
-          <textarea id="msg" name="message" rows="8" placeholder="please type some information here..." required></textarea>
+          <textarea id="msg" name="message" rows="8" placeholder="please explain your submission here..." required></textarea>
 
 
           <button class="submit" type="submit">submit your contribution!</button>
