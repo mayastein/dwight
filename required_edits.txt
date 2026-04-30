@@ -32,7 +32,7 @@ skills nd
 
 practice landing
     ( ) Content (review)
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 thought defusion
     ( ) Content (review)
@@ -41,7 +41,7 @@ thought defusion
 
 urge surfing (landing)
     (X) Content
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 urge surf subpages
     ( ) resizing for subpage 2
