@@ -1111,6 +1111,10 @@ iframe{
     margin-right:4vh;
 }
 
+.sklogo{
+    display:none;
+}
+
 @media screen and (max-width: 800px) {
     .myPopupCloud img{
         width:100vh;
@@ -1237,6 +1241,7 @@ iframe{
         height:10vh;
     }
 
+
 }
 
 @media screen and (max-width: 900px) {
@@ -1264,5 +1269,6 @@ iframe{
     .gallery-item{
         width:40%;
     }
+
 }
 
