@@ -41,8 +41,6 @@ body{
     margin-right:5vh;
 }
 
-
-
 .nav-bar li{
     float:left;
     
@@ -50,6 +48,19 @@ body{
 
 .sud{
     width:60vh;
+}
+
+.sudsimg{
+    width:120vh;
+    border:4px double var(--darkBlue);
+}
+
+.sud:hover, .sudsimg:hover{
+    box-shadow: 5px 5px 20px var(--darkBlue);
+}
+
+#section1 h5{
+    font-size:18px;
 }
 
 .nav-bar li a{
@@ -1182,6 +1193,13 @@ iframe{
 }
 
 @media screen and (max-width: 1000px) {
+    .sud{
+        width:50%;
+        margin-bottom:20px;
+    }
+    .sudsimg{
+        width:68%;
+    }
     .my{
         margin-left:5vh;
         margin-right:5vh;
