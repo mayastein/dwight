@@ -24,11 +24,11 @@ skills interpersonal effectiveness
 
 skills dt
     ( ) Content (review)
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 skills nd
     ( ) Content
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 practice landing
     ( ) Content (review)
