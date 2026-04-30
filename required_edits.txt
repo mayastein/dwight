@@ -5,8 +5,8 @@ Status Check - 4/30/26
     (X) Resizing based on screen size
 
 skills landing (skills.html)
-    ( ) Content (review)
-    ( ) Resizing based on screen size
+    (X) Content (review)
+    (X) Resizing based on screen size
 
 skills mindfulness
     ( ) Content (review)
