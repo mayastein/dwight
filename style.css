@@ -1273,7 +1273,10 @@ iframe{
     .asd-btn-fam{
         width:90%;
     }
-
+    .the-gallery{
+        width:100%;
+        margin-left:0px;
+    }
 
 }
 
@@ -1348,6 +1351,17 @@ iframe{
         margin:2px;
         padding:4px;
 
+    }
+    .the-gallery{
+        width:100%;
+        margin-left:0px;
+    }
+    .com-h-i{
+        width:80%;
+        margin-bottom:0px;
+    }
+    .crisis-open-txt{
+        width:90%;
     }
 
 }

@@ -44,7 +44,7 @@ urge surfing (landing)
     (X) Resizing based on screen size
 
 urge surf subpages
-    ( ) resizing for subpage 2
+    (X) resizing for subpage 2
     ( ) resizing for subpage 3
 
 monster (landing/sub)
@@ -54,7 +54,7 @@ monster (landing/sub)
 
 community (landing)
     (X) Content
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 community (form)
     (X) Content
@@ -62,7 +62,7 @@ community (form)
 
 crisis (landing)
     (X) Content
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 Distraction
     ( ) Content (review)
