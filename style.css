@@ -757,6 +757,11 @@ iframe{
     to {top:400px;}
 }
 
+.skrk{
+    width:120vh;
+    border:2px solid var(--purple);
+}
+
 .skrk:hover{
     box-shadow: 2px 2px 4px 4px var(--purple);
 }
@@ -1255,6 +1260,9 @@ iframe{
         width:10vh;
         height:10vh;
     }
+    .skrk{
+        width:90%;
+    }
 
 
 }
@@ -1302,6 +1310,20 @@ iframe{
     #logoImgSk{
         width:300px;
         height:210px;
+    }
+    .com-btn2{
+        padding:10px;
+        font-size: 2.5vh;
+    }
+    .ctf input[type=text]{
+        width:90%;
+        font-size:2vh;
+    }
+    .ctf{
+        margin:-10px;
+    }
+    .skrk{
+        width:90%;
     }
 
 }

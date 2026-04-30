@@ -10,13 +10,13 @@ skills landing (skills.html)
 
 skills mindfulness
     ( ) Content (review)
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 skills emotion reg
     ( ) Content
         ( ) Missing image
         ( ) Review
-    ( ) Resizing based on screen size
+    (X) Resizing based on screen size
 
 skills interpersonal effectiveness
     ( ) Content (review)
