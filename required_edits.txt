@@ -9,12 +9,12 @@ skills landing (skills.html)
     (X) Resizing based on screen size
 
 skills mindfulness
-    ( ) Content (review)
+    (X) Content (review)
     (X) Resizing based on screen size
 
 skills emotion reg
     ( ) Content
-        ( ) Missing image
+        (X) Missing image
         ( ) Review
     (X) Resizing based on screen size
 
