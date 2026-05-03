@@ -139,7 +139,7 @@ body{
 
 .content img{
     width:100%;
-    max-width:600px;
+    max-width:500px;
     height:auto;
     object-fit:cover;
     margin-bottom:2vh;
@@ -214,7 +214,7 @@ h3{
 
 .welcome, .welcome2{
     width:100%;
-    max-width: 900px;
+    max-width: none;
     /* margin:-40vh;
     margin-top:-35vh;
     margin-bottom:-32vh; */
@@ -230,7 +230,7 @@ h3{
 
 .com-welcome{
     width:100%;
-    max-width:600px;
+    max-width:none;
     margin:-6vh;
     margin-top:-9vh;
 }
