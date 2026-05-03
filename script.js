@@ -253,11 +253,11 @@ function exportdata(){
     window.print();
 }
 
-function showYes{
+function showYes(){
     yTXT.css("display", "block");
 }
 
-function showNo{
+function showNo(){
     nTXT.css("display", "block");
 }
 
