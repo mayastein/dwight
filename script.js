@@ -144,12 +144,6 @@ var lwp=$(".lwp");
 var asapp=$(".asapp");
 var ono=$(".ono");
 
-var y = $(".y");
-var n = $(".n");
-
-var yTXT = $(".yTXT");
-var nTXT = $(".nTXT");
-
 tappy.hover(function(){
     s_txt.text("Tappy is an IOS app that for phones, tablets, and smart watches. It features virtual fidgets, games, breathing exercises, and more! A great option for fidgeting on-the-go");
 }, function(){
@@ -254,13 +248,17 @@ function exportdata(){
 }
 
 function showYes(){
+    var yTXT = $(".yTXT");
     yTXT.css("display", "block");
 }
 
 function showNo(){
+    var nTXT = $(".nTXT");
     nTXT.css("display", "block");
 }
 
+var y = $(".y");
+var n = $(".n");
 
 y.on("click", showYes);
 n.on("click", showNo)
