@@ -1410,3 +1410,38 @@ iframe{
     }
     
 }
+
+
+/* MOBILE SIZING STILL NOT WORKING - BANDAID FIX:*/
+
+* {
+    box-sizing: border-box;
+}
+
+.nav-bar {
+    width: 100vw;
+    max-width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-bar li {
+    float: none;
+}
+
+@media screen and (max-width: 800px) {
+
+    .content {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+}
