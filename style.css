@@ -1432,6 +1432,25 @@ iframe{
     float: none;
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body > * {
+    max-width: 100%;
+}
+
+.content {
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media screen and (max-width: 800px) {
 
     .content {
