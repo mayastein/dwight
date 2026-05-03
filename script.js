@@ -249,16 +249,29 @@ function exportdata(){
 
 function showYes(){
     var yTXT = $(".yTXT");
+    var nTXT = $(".nTXT");
+    nTXT.css("display", "none");
     yTXT.css("display", "block");
 }
 
 function showNo(){
+    var yTXT = $(".yTXT");
     var nTXT = $(".nTXT");
+    yTXT.css("display", "none");
     nTXT.css("display", "block");
+
+}
+function hideYN(){
+    var yTXT = $(".yTXT");
+    var nTXT = $(".nTXT");
+    yTXT.css("display", "none");
+    nTXT.css("display", "none");
 }
 
-var y = $(".y");
-var n = $(".n");
+var y = $(".yRadio");
+var n = $(".nRadio");
+var clears = $(".clr-ctf");
 
 y.on("click", showYes);
-n.on("click", showNo)
+n.on("click", showNo);
+clears.on("click", hideYN);

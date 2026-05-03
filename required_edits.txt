@@ -13,9 +13,9 @@ skills mindfulness
     (X) Resizing based on screen size
 
 skills emotion reg
-    ( ) Content
+    (X) Content
         (X) Missing image
-        ( ) Review
+        (X) Review
     (X) Resizing based on screen size
 
 skills interpersonal effectiveness
