@@ -19,24 +19,24 @@ skills emotion reg
     (X) Resizing based on screen size
 
 skills interpersonal effectiveness
-    ( ) Content (review)
+    (X) Content (review)
     (X) Resizing based on screen size
 
 skills dt
-    ( ) Content (review)
+    (X) Content (review)
     (X) Resizing based on screen size
 
 skills nd
-    ( ) Content
+    (X) Content
     (X) Resizing based on screen size
 
 practice landing
-    ( ) Content (review)
+    (X) Content (review)
     (X) Resizing based on screen size
 
 thought defusion
-    ( ) Content (review)
-    ( ) Voice feature
+    (X) Content (review)
+    (*future iteration update*) Voice feature
     (X) Resizing based on screen size
 
 urge surfing (landing)
@@ -45,11 +45,11 @@ urge surfing (landing)
 
 urge surf subpages
     (X) resizing for subpage 2
-    ( ) resizing for subpage 3
+    (*future iteration*) resizing for subpage 3
 
 monster (landing/sub)
-    ( ) content - needs lots of work
-    ( ) Resizing based on screen size
+    (*future iteration*) content - needs lots of work
+    (*future iteration*) Resizing based on screen size
 
 
 community (landing)
@@ -65,5 +65,5 @@ crisis (landing)
     (X) Resizing based on screen size
 
 Distraction
-    ( ) Content (review)
+    (X) Content (review)
     (X) Resizing based on screen size
