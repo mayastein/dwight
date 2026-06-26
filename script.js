@@ -91,9 +91,12 @@ function drawWords(){
     alert("Your random word to draw is: " + word.toUpperCase());
 }
 
+
+/* Here is my JS function for the code review
+Specifically, the silly voice code is not working as expected */ 
 function formAction() {
     event.preventDefault();
-    var sillyVoice=document.getElementById("silly-voice").value;
+    var sillyVoice=document.getElementById("silly-voice").value; // relevant line
     var theTxt = document.getElementById("arr").value;
     var box=$('.thoughtTxt');
     var box2=$('.thoughtTxt2');
@@ -110,18 +113,20 @@ function formAction() {
         }, 2000);
     }
 
+    //Key conditional for the silly voice feature:
     if(document.getElementById("silly-voice").checked){
         txt=document.getElementById("arr");
         let utterance = new SpeechSynthesisUtterance();
 
         // Set the text and voice of the utterance
         utterance.text = theTxt;
-        utterance.voice = window.speechSynthesis.getVoices()[0];
+        utterance.voice = window.speechSynthesis.getVoices()[0]; // voice wont change :(
 
         // Speak the utterance
         window.speechSynthesis.speak(utterance);
         txt.value="";
     }
+    // end relevant code for the code review
 
     if(document.getElementById("click-x").checked){
         txt=document.getElementById("arr");
